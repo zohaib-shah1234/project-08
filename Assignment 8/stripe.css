@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-one{
+    height: 837px;
+    background-image: radial-gradient(circle, rgba(255,202,87,1) 0%, rgba(241,159,101,1) 29%, rgba(212,134,155,1) 45%, rgba(171,99,234,1) 100%);
+    background-attachment:fixed ;
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0% 50%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 200px 0 200px;
+    color: azure;  
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navbar li{
+    padding: 0 15px;
+}
+.navbar button{
+    border-radius: 15px;
+    border: none;
+    padding: 7px 10px;
+    color: azure;
+    background-color: rgb(240, 255, 255, 0.3);
+}
+.navbar button img{
+    padding-left: 12px;
+}
+.card{
+    position: absolute;
+    top: 150px;
+    right: 280px;
+    z-index: 1;
+}   
+.graph{
+    position: absolute;
+    top: 90px;
+    right: 0px;
+}
+.heading{
+    position: absolute;
+    top: 150px;
+    margin-left: 200px;
+    width: 400px;
+}
+.button{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    vertical-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+.heading img{
+    padding-left: 12px;
+}
+.heading span img{
+    padding-left: 0;
+}
+.heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -3.759999990463257px;
+    text-align: left;
+}
+.heading p{
+    margin-top: 30px;
+
+}
+.sites-logos{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 0 200px 0 200px;
+}
+.sites-logos img{
+    padding: 0 30px 50px 0px;
+}
+.unified{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 150px;
+
+}
+.unified h3{
+    color:#635BFF;
+    margin-bottom: 20px;
+
+}
+.unified-paras{
+    display: flex;
+    margin: 50px 200px 0 200px;
+}
+.unified-paras p{
+    justify-content: left;
+    padding: 0 50px 0 0 ;
+}
+.unified-paras span{
+    color: #635BFF;
+}
+
+.unified-button{
+    margin-left: 200px;
+}
+.unified-button button{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    color: azure;
+    background-color:#635BFF;
+    vertical-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.unified-button img{
+    padding-left: 12px;
+}
+.payments{
+    margin-left: 200px;
+    position: relative;
+}
+.visa{
+    width: 480px;
+    position: absolute;
+    left: -70px;
+}
+.invoice{
+    width: 500px;
+    position: absolute;
+    left: 300px;
+    margin-top: 10px;
+    
+}
+.phone{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    /* left: 600px; */
+    top: -60px;
+    margin-left: 650px;
+}
+.warby{
+    width: 400px;
+    position: absolute;
+    top: 240px;
+    left: -70px;
+}
+.fraud{
+    width: 700px;
+    position: absolute;
+    top: 350px;
+    margin-left: 300px;
+}
+.extra{
+    width: 100vw;
+    height: 150vh;
+}
+.code{
+    background-color: #0A2540;
+    padding: auto 200px;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.code-heading{
+    margin-left: 200px;
+    width: 400px;
+    color: azure;
+}
+.aqua{
+    color: #00D4FF;
+    ;
+}
+.button2{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    color: azure;
+    background-color:#00D4FF;
+    ;
+    vertical-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.code-para{
+    display: flex;
+    color: azure;
+}
+.para1{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.para2{
+    padding-left: 10px;
+    padding-top: 20px;   
+}
+.close{
+    display: flex;
+    align-items: center;
+    margin: 200px 200px;
+    list-style: none;
+}
+.close h4{
+    margin-bottom: 20px;
+}
+.back{
+    background-color: #0A2540;
+    color: azure;
+    height: 120vh;
+    padding: auto 200px;
+}
+.gl{
+    margin-left: 200px;
+    padding-top: 200px;
+}
+.footer{
+    display: flex;
+    margin: 100px 200px;
+}
+.footer ul{
+    list-style: none;
+    margin-right: 150px;
+
+}
